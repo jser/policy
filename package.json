@@ -1,0 +1,39 @@
+{
+  "name": "@jser/policy",
+  "version": "1.0.0",
+  "description": "JSer.info Policy notes",
+  "keywords": [
+    "jser"
+  ],
+  "homepage": "https://github.com/jser/policy",
+  "bugs": {
+    "url": "https://github.com/jser/policy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jser/policy.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "main": "lib/policy.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@proofdict/textlint-rule-proofdict": "^3.1.1",
+    "textlint": "^11.7.7",
+    "textlint-filter-rule-allowlist": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^4.0.1"
+  }
+}
