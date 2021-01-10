@@ -25,6 +25,7 @@
     "lib/"
   ],
   "scripts": {
+    "build": "fiddly",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "@proofdict/textlint-rule-proofdict": "^3.1.1",
+    "fiddly": "^0.9.1",
     "textlint": "^11.7.7",
     "textlint-filter-rule-allowlist": "^2.0.1",
     "textlint-rule-preset-ja-technical-writing": "^4.0.1"

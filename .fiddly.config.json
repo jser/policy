@@ -1,0 +1,12 @@
+{
+    "noHeader": true,
+    "styles": {
+        "h2":{
+            "paddingBottom": "0.3em",
+            "borderBottom": "1px solid #eaecef"
+        },
+        "h3": {
+            "fontSize": "1.5em"
+        }
+    }
+}
